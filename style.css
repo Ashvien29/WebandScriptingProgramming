@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* CSS Document */
+/* The body tag style applies to all elements on the page */
+
+body {
+    background: rgb(138, 148, 182);
+    background: -moz-linear-gradient(top, black 0%, rgb(11, 21, 80) 100%);
+    background: -webkit-linear-gradient(top, black 0%, rgba(11, 21, 80) 100%);
+    background: -o-linear-gradient(top, black 0%, rgba(11, 21, 80) 10080%);
+    background: linear-gradient(to bottom, black 0%, rgb(11, 21, 80) 100%);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(238, 235, 235);
+        font-family: Verdana, Geneva, Arial, sans-serif;
+        padding: 0px;
+        margin: 0px;
+}
+
+/* The wrapper ID style is used with a div tag to provide a 960px wide page */
+#wrapper 
+{
+    width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url(Ft9K.gif);
+}
+/* Defining a style for a set of tags sperated by commas applies the style to all tags */
+h1,h2,h3,h4,h5,h6,li 
+{
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+input,p
+{
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    
+}
+label
+{
+   margin-right: 400px;
+   position: relative;
+   top: 20px;
+}
+.questions
+{
+  position: relative;
+  right: -160px;
+}
+textarea
+{
+   position: relative;
+   top: 20px;
+}
+img 
+{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 5px;
+
+}
+/* Creating a style of the links */
+a:link, a:visited 
+{
+   background-color: #aeeeb2;
+   color: black;
+   padding: 5px 15px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   border: 1px solid black;
+   outline-style: solid;
+   outline-color: cyan;
+   outline-width: thick;
+   margin-left: 1rem;
+   margin-bottom: 1rem;
+   border-radius: 16px;
+   
+}
+
+a:hover, a:active 
+{
+    background-color: rgb(5, 122, 50);
+}
+
+button
+{
+    background-color: rgb(86, 33, 33);
+    width: 100px;
+    position: relative;
+    top: 20px;
+    
+}
+
+button:hover
+{
+    background-color: red;
+}
+#banner 
+{
+   height: 160px;
+   background-color: rgb(4, 3, 31);
+   color:grey;
+   text-align: center;
+   
+}
+
+aside
+{
+    background-color: beige;
+    float: left;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thin;
+    position: relative;
+    top: -120px;
+}
+
+#aside
+{
+    background-color: beige;
+    float: right;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thin;
+    position: relative;
+    top: -120px;
+}
+
+.aside
+{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 120px;
+}
+
+header
+{
+    background-color:rgb(38, 151, 200);
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+
+footer
+{
+    background-color:rgb(38, 151, 200);
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 26px;
+    margin-top: 100px;
+    position: relative;
+    top: 10px;
+
+}

@@ -1,0 +1,115 @@
+<!--The HTML5 doctype declaration is very simple-->
+<!DOCTYPE html>
+<!--All page content is inside the HTML element-->
+<html>
+
+<head>
+    <!--The UF-8 character set provides the most support for all the symbols and character-->
+    <meta charset='utf-8'>
+    <title>About Me</title>
+    <!--The following links to our Style Sheet file-->
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <!-- full-size monitor style sheet-->
+   <link href="full.css" rel="stylesheet" type="text/css" media="only screen and
+   (min-width:960px)">
+   <!-- tablet style sheet-->
+   <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and
+   (min-width:481px) and (max-width:960px)">
+   <!-- phone style sheet-->
+   <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and
+   (max-width:480px)">
+</head>
+<!--Content visible in the browser's window is inside the HTML element-->
+<body>
+    <!--All body content encloses with ID wrapper -->
+    <div id="wrapper">
+        <!--The banner ID style is inside the wrapper ID-->
+        <div id="banner">
+            <h1>All About Me</h1>
+            <nav>
+                <h5>
+                <a href="index.html">Home</a> 
+                <a href="About.html">About me</a> 
+                <a href="Contact_Me.html">Contact</a> 
+                <a href="Projects.html">Project</a> 
+                </h5>
+            </nav>
+        </div>
+        <img src="IMG_20240926_200439.png" alt="image">
+        <!--Parameters inside video tag-->
+        <video id="myvid" width="400" height="210" preload="auto"  muted loop>
+            <source src="20240930_222550.mp4" type="video/mp4">
+
+        </video>
+        <!--Adding information aside-->
+        <aside>
+                This is the video of me that I'm
+                introducing to myself.
+        </aside>
+        <div id="aside">
+                And also in this video I'm talking about
+                building up my skills for my
+                future career.   
+         </div>
+         <div class="aside">
+             <img src="Blank 2 Grids Collage.jpg" alt="image">
+         </div>
+        <button onclick="PlayPause()">Play/Pause</button>
+        <script>
+            var myvidbtn = document.getElementById("myvid");
+            function PlayPause()
+
+            {
+                if (myvidbtn.paused)
+                    myvidbtn.play();
+                else
+                    myvidbtn.pause();
+            }
+        </script>
+        <!--Style for the video, button, and image-->
+        <style>
+            video 
+            {
+                background-color: Black;
+                border: 2px whitesmoke;
+                align-content: center;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+            }
+
+            button {
+                   background-color: rgba(98, 93, 93, 0.377);
+                   color: black;
+                   height: 45px;
+                   border: 2px whitesmoke;
+                   box-shadow: 10px 10px 5px rgb(74, 71, 95);
+                   border-radius: 5px;
+                   margin-left: 200px;
+                   margin-top: 16px;
+                   font: bolder;
+                   position: relative;
+                   top: -100px;
+                   left: 230px;
+                   }
+
+            button:hover { 
+                         background-color: rgb(29, 3, 47);
+                         color: white;
+                         height: 45px;
+                         border: 2px whitesmoke;
+                         box-shadow: -10px -10px 5px rgb(47, 115, 217);
+                         border-radius: 5px;
+                         }
+           img{
+                 max-width: 100%;
+                 height: auto;
+              }
+           </style>
+
+    </div>
+
+</body>
+
+</html>
