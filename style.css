@@ -52,11 +52,7 @@ label
    position: relative;
    top: 20px;
 }
-.questions
-{
-  position: relative;
-  right: -160px;
-}
+
 textarea
 {
    position: relative;

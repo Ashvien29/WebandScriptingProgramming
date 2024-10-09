@@ -36,11 +36,7 @@ label
    top: 60px;
    color:black;
 }
-.questions
-{
-  position: relative;
-  right: 20px;
-}
+
 textarea
 {
    position: relative;
@@ -135,6 +131,7 @@ aside
     outline-width: thin;
     position: relative;
     top: 20px;
+    color:black;
 }
 
 #aside
@@ -150,6 +147,7 @@ aside
     outline-width: thin;
     position: relative;
     top: 20px;
+    color:black;
 }
 
 button
